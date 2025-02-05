@@ -4,24 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>الدراسة والسياحة في روسيا</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Header -->
     <header class="header">
-        <nav class="navbar">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="images/logo.png" alt="شعار الموقع" class="logo-img">
-                </a>
-            </div>
+        <nav class="navbar container">
+            <img src="images/logo.png" alt="شعار الموقع" class="logo-img">
             <div class="nav-links">
                 <a href="index.html" class="active">الرئيسية</a>
-                <a href="translation.html">خدمات الترجمة</a>
-                <a href="insurance.html">التأمين الطبي</a>
                 <a href="services.html">خدماتنا</a>
+                <a href="medical.html">التأمين الطبي</a>
+                <a href="translation.html">خدمات الترجمة</a>
                 <a href="about.html">من نحن</a>
                 <a href="contact.html">اتصل بنا</a>
             </div>
@@ -31,61 +26,177 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero" data-aos="fade-up">
-        <div class="hero-content">
-            <h1>مرحباً بكم في روسيا</h1>
-            <p>نقدم لكم أفضل خدمات الدراسة والسياحة في روسيا</p>
-            <a href="#services" class="cta-button">اكتشف خدماتنا</a>
+    <section class="hero">
+        <div class="video-container">
+            <div class="video-overlay"></div>
+            <iframe 
+                width="100%" 
+                height="100%" 
+                src="https://www.youtube.com/embed/Qwy4iCvLtiU?autoplay=1&mute=1&loop=1&playlist=Qwy4iCvLtiU" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+        <div class="hero-content" data-aos="fade-up">
+            <h1>ابدأ رحلتك الدراسية في روسيا</h1>
+            <p>نقدم لك خدمات شاملة للدراسة والسياحة في روسيا مع دعم كامل وإرشاد متواصل</p>
+            <a href="#admission-steps" class="cta-button">تعرف على خطوات القبول</a>
         </div>
     </section>
 
-    <!-- Main Services -->
-    <section class="services" id="services">
-        <h2 class="section-title" data-aos="fade-up">خدماتنا الرئيسية</h2>
-        <div class="services-grid">
-            <div class="service-card" data-aos="fade-up" data-aos-delay="100">
-                <i class="fas fa-graduation-cap"></i>
-                <h3>خدمات تعليمية</h3>
-                <p>نساعدك في اختيار أفضل الجامعات والمعاهد الروسية</p>
-            </div>
-            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
-                <i class="fas fa-language"></i>
-                <h3>خدمات الترجمة</h3>
-                <p>ترجمة معتمدة لجميع الوثائق والمستندات</p>
-            </div>
-            <div class="service-card" data-aos="fade-up" data-aos-delay="300">
-                <i class="fas fa-hospital-user"></i>
-                <h3>التأمين الطبي</h3>
-                <p>تأمين صحي شامل للطلاب والسياح</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h4>تواصل معنا</h4>
-                <p><i class="fas fa-phone"></i> +7 XXX XXX XXXX</p>
-                <p><i class="fas fa-envelope"></i> info@russia-study.com</p>
-            </div>
-            <div class="footer-section">
-                <h4>تابعنا</h4>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-telegram"></i></a>
-                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+    <section id="admission-steps" class="admission-steps">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">خطوات القبول والتسجيل</h2>
+            <div class="steps-grid">
+                <div class="step-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="step-number">1</div>
+                    <h3>تقديم الطلب</h3>
+                    <p>ملء نموذج التقديم وإرفاق المستندات المطلوبة (الشهادة الثانوية، جواز السفر، الصور الشخصية)</p>
+                </div>
+                <div class="step-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="step-number">2</div>
+                    <h3>دراسة الطلب</h3>
+                    <p>مراجعة الطلب والمستندات من قبل الجامعات الروسية واختيار التخصص المناسب</p>
+                </div>
+                <div class="step-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="step-number">3</div>
+                    <h3>خطاب القبول</h3>
+                    <p>إصدار خطاب القبول المبدئي من الجامعة وإرساله للطالب</p>
+                </div>
+                <div class="step-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="step-number">4</div>
+                    <h3>التأشيرة الدراسية</h3>
+                    <p>المساعدة في إجراءات استخراج التأشيرة الدراسية وتجهيز الأوراق المطلوبة</p>
+                </div>
+                <div class="step-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="step-number">5</div>
+                    <h3>السكن والوصول</h3>
+                    <p>ترتيب السكن وخدمة الاستقبال في المطار والتوصيل إلى السكن</p>
+                </div>
+                <div class="step-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="step-number">6</div>
+                    <h3>بدء الدراسة</h3>
+                    <p>المساعدة في إجراءات التسجيل النهائي بالجامعة وبدء الدراسة</p>
                 </div>
             </div>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 جميع الحقوق محفوظة</p>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">الأسئلة الشائعة</h2>
+            <div class="faq-grid">
+                <div class="faq-item" data-aos="fade-up">
+                    <div class="faq-question">
+                        <h3>ما هي تكلفة الدراسة في روسيا؟</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>تختلف تكلفة الدراسة حسب الجامعة والتخصص، وتتراوح عادةً بين 2000-7000 دولار سنوياً. تشمل هذه التكلفة الرسوم الدراسية فقط، ولا تشمل السكن والمعيشة.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up">
+                    <div class="faq-question">
+                        <h3>هل يشترط إتقان اللغة الروسية للدراسة؟</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>نعم، ولكن يمكنك دراسة السنة التحضيرية لتعلم اللغة الروسية قبل بدء الدراسة الأكاديمية. كما تتوفر بعض البرامج باللغة الإنجليزية.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up">
+                    <div class="faq-question">
+                        <h3>ما هي المستندات المطلوبة للقبول؟</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>المستندات الأساسية تشمل: شهادة الثانوية العامة مصدقة، جواز السفر، صور شخصية، شهادة صحية، وشهادة خلو من فيروس نقص المناعة.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up">
+                    <div class="faq-question">
+                        <h3>كم مدة استخراج التأشيرة الدراسية؟</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>تستغرق عملية استخراج التأشيرة الدراسية عادةً من 2-4 أسابيع من تاريخ تقديم جميع المستندات المطلوبة.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up">
+                    <div class="faq-question">
+                        <h3>هل تتوفر منح دراسية؟</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>نعم، تقدم الحكومة الروسية منحاً دراسية سنوية للطلاب الدوليين. كما تقدم بعض الجامعات منحاً خاصة للطلاب المتفوقين.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>تواصل معنا</h4>
+                    <p>البريد الإلكتروني: info@example.com</p>
+                    <p>الهاتف: +7 999 999 9999</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="about.html">من نحن</a></li>
+                        <li><a href="services.html">خدماتنا</a></li>
+                        <li><a href="contact.html">اتصل بنا</a></li>
+                        <li><a href="#">سياسة الخصوصية</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>النشرة البريدية</h4>
+                    <p>اشترك في نشرتنا البريدية للحصول على آخر الأخبار والعروض</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="البريد الإلكتروني">
+                        <button type="submit" class="submit-button">اشتراك</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 جميع الحقوق محفوظة</p>
+            </div>
         </div>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+        // تفعيل الأسئلة الشائعة
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const icon = question.querySelector('i');
+                
+                answer.style.maxHeight = answer.style.maxHeight ? null : answer.scrollHeight + 'px';
+                icon.classList.toggle('fa-chevron-up');
+                icon.classList.toggle('fa-chevron-down');
+            });
+        });
+
+        // تفعيل القائمة في الهاتف المحمول
+        document.querySelector('.menu-toggle').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
